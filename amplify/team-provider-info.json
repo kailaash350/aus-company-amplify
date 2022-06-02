@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-auscompanypoc-dev-231123-authRole",
+      "UnauthRoleArn": "arn:aws:iam::314018168446:role/amplify-auscompanypoc-dev-231123-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::314018168446:role/amplify-auscompanypoc-dev-231123-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-auscompanypoc-dev-231123-deployment",
+      "UnauthRoleName": "amplify-auscompanypoc-dev-231123-unauthRole",
+      "StackName": "amplify-auscompanypoc-dev-231123",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:314018168446:stack/amplify-auscompanypoc-dev-231123/813f40e0-e275-11ec-b829-06ed5a8ac036",
+      "AmplifyAppId": "d31cgm761a42eo"
+    },
+    "categories": {
+      "function": {
+        "ausCompanyGetData": {
+          "deploymentBucketName": "amplify-auscompanypoc-dev-231123-deployment",
+          "s3Key": "amplify-builds/ausCompanyGetData-7a4872506331434c6659-build.zip"
+        }
+      }
+    }
+  }
+}
