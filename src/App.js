@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Amplify, { API } from 'aws-amplify'
+import React, { useEffect, useState } from 'react'
+
+const URL = "https://9q2xys304l.execute-api.ap-southeast-2.amazonaws.com/dev"
+const path = '/getData'; 
+
 function App() {
+
+  function getData(e){
+    API.get(URL+path)
+    .then(response =>{
+      console.log(response)
+    })
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>Company Listing</h1>
+    <button onClick={getData}>Get Data</button>
+    </>
   );
 }
 

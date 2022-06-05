@@ -15,7 +15,7 @@
       "function": {
         "ausCompanyGetData": {
           "deploymentBucketName": "amplify-auscompanypoc-dev-231123-deployment",
-          "s3Key": "amplify-builds/ausCompanyGetData-7a4872506331434c6659-build.zip"
+          "s3Key": "amplify-builds/ausCompanyGetData-6f6d5a63436b634b346a-build.zip"
         }
       }
     }
